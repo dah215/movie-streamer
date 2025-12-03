@@ -1,0 +1,40 @@
+{
+  "name": "movie-streamer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Ứng dụng xem phim trực tuyến với giao diện hiện đại",
+  "dependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.22",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dash.js": "^4.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "hls.js": "^1.6.15",
+    "plyr": "^3.8.3",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3",
+    "video.js": "^8.23.4",
+    "vite": "^7.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "terser": "^5.44.1"
+  }
+}
